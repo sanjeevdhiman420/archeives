@@ -1,0 +1,110 @@
+body {
+    background-color: #d1e4dd;
+}
+
+.container {
+    text-align: center;
+    margin-top: 59px;
+    font-family: system-ui;
+    font-size: 20px;
+}
+
+.blog {
+    font-family: system-ui;
+    font-size: 38px;
+    margin-left: 190px;
+    margin-top: 53px;
+}
+
+.blog a {
+    color: black;
+}
+
+.text {
+    font-family: system-ui;
+    font-size: 26px;
+    margin-left: 190px;
+}
+
+.info {
+    font-family: system-ui;
+    font-size: 19px;
+    margin-left: 190px;
+    margin-top: 66px;
+}
+
+.info a {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row {
+    margin-left: 102px;
+    margin-top: 63px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 52%;
+    background: #f1f1f1;
+}
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 12px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+.row .column a {
+    color: black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row2 {
+    margin-left: 102px;
+    margin-top: 63px;
+    font-size: 20px;
+    font-family: system-ui;
+}
+
+.column2 {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 63px;
+    margin-top: 80px;
+    border-top-style: groove;
+    margin-right: -39px;
+}
+
+.row2 .column2 a {
+    color: black;
+}

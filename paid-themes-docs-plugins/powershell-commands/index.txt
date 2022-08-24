@@ -1,0 +1,19 @@
+1) Create files and folders with PowerShell
+       .New-Item -Path '\\fs\Shared\NewFolder\newfile.txt' -ItemType File
+       .New-Item -Path '\\fs\Shared\NewFolder' -ItemType Directory
+2) View the objects in a directory
+       .Get-ChildItem -Force \\fs\Shared
+       .Get-ChildItem -Force \\fs\Shared -Recurse
+       .Get-ChildItem -Path \\fs\Shared\IT -Recurse -Include *.exe | Where-        Object -FilterScript {($_.LastWriteTime -gt '2018-04-01')}
+3)Switch current directory
+       .Set-Location -Path "C:\G-Drive"
+4)edit file using power shell
+       .notepad app.html
+(important : Windows PowerShell Integrated Scripting Environment (ISE)
+What is ISE in PowerShell?
+The Windows PowerShell Integrated Scripting Environment (ISE) is a host application for Windows PowerShell. In the ISE, you can run commands and write, test, and debug scripts in a single Windows-based graphic user interface)
+
+5) How to Install XAMPP Using the PowerShell App Deployment Toolkit
+   .Run as Administrator
+   .nter the following command to remove the Zone.Identifier:
+    Unblock-File -Path C:\Downloads\PSAppDeployToolkit_v3.8.4.zip 

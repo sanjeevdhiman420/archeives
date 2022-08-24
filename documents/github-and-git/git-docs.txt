@@ -1,0 +1,23 @@
+1)git config --global user.name name
+2)git config --global user.email email
+3)git init    (for inizialize directory)
+4)ls -lart  (For hidden files of directory)
+5)git status  (note:use everytime to check status)
+6)touch filename (create a file in directory)
+7)git -add -A   (for adding all files)
+8)git commit -m "commit_name"  (use commit name instead the "commit_name")
+9)git checkout file_name or directory (use this for check last commit)
+10)git log (info about author and comits)
+11)git log p -1  (specifiec show commits)
+12)git diff (see last changes with file or dir)
+13)git diff -staged (compare with last commit)
+14)git checkout -f(retrive of last commit)
+15)git rm --cached filename
+16)git rm filename
+17)git status -s
+18)git remote add origin url
+19)git origin (info about orign url)
+20)git remote -v
+21)git push origin origin_name
+22)git push -u origin origin_name
+

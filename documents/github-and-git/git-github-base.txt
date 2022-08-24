@@ -1,0 +1,15 @@
+What is Git?
+- Git is a DevOps(DevOps is the combination of cultural philosophies, practices, and tools that increases an organization's ability to deliver applications and services at high velocity:) tool used for source code management.It is a free and open-source version control system used to handle small to very large projects efficiently.Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
+(According to git communit)
+-Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support for distributed, non-linear workflows.
+-Git can help you with Version Control and with Web Site Deployment. GitHub is a web-based hosting service for projects that use the Git revision control system.
+
+
+What is github?
+-GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. This tutorial teaches you GitHub essentials like repositories, branches, commits, and pull requests. ... Create and use a repository. Start and manage a new branch.
+
+
+What is gitbase?
+-Rebase is an action in Git that allows you to rewrite commits from one branch onto another branch. Essentially, Git is deleting commits from one branch and adding them onto another.
+
+

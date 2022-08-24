@@ -1,0 +1,126 @@
+html {
+    background: #f1f1f1;
+    margin: 0 20px;
+}
+
+
+body {
+    background: white;
+    color: #444;
+
+    margin: 140px auto 25px;
+    padding: 20px 20px 10px;
+    max-width: 756px;
+    -webkit-font-smoothing: subpixel-antialiased;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.13);
+}
+.checks {
+    float: left;
+    margin-left: -102px;
+}
+
+p {
+    padding-bottom: 2px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.btn {
+    color: #0071a1;
+    border-color: #0071a1;
+    background: #f3f5f6;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+.logo {
+    margin: -130px 290px 25px;
+    padding: 0 0 25px;
+    width: 72px;
+    height: 98px;
+
+}
+.form-table {
+    border-collapse: collapse;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.form-table th {
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 20px 10px 0;
+    width: 140px;
+    vertical-align: top;
+}
+
+
+.form-table input {
+    line-height: 1.33333333;
+    font-size: 15px;
+    padding: 3px 5px;
+    width: 222px;
+}
+.inputshowhide {
+    height: 33px;
+    width: 69px;
+}
+.form-table td {
+    margin-bottom: 9px;
+    padding: 10px 17px 10px 0;
+    font-size: 14px;
+    vertical-align: top;
+}
+
+.ptag {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 25px 0 20px;
+}
+h1 {
+    font-size: 24px;
+    border-bottom: 1px solid #dadada;
+    color: #666;
+    font-weight: 400;
+    padding: 3px 0 19px;
+}
+
+label {
+    font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+#checks {
+    float: left;
+    margin-left: -102px;
+}
+#form_p {
+    float: left;
+    margin-left: -97px;
+}
+#pass {
+    border-color: #83c373;
+}
+.strong {
+    background-color: #c1e1b9;
+    border-color: #83c373;
+    opacity: 1;
+    width: 223px;
+    height: 30px;
+    color: black;
+    text-align: center;
+    padding: 6px;
+}
+.showhide {
+    float: right;
+    margin-top: -46px;
+    margin-right: 269px;
+
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px / 1 FontAwesome;
+    font-size: 21px;
+    text-rendering: auto;
+}

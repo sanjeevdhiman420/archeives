@@ -1,0 +1,82 @@
+Installation
+Laravel Documentation :-
+   I) Intro :- There are a variety of tools and frameworks available to you 	when building a web application. However, we believe Laravel is the 	best choice for building modern, full-stack web applications.
+1)A Progressive Framework:-	
+	-We like to call Laravel a "progressive" framework.Laravel gives you 	robust tools for dependency injection, unit testing, queues, real-	time events, and more. 
+2)A Scalable Framework:-
+	-Laravel is incredibly scalable. Thanks to the scaling-friendly 	nature of PHP and Laravel's built-in support for fast, distributed 	cache systems like Redis, horizontal scaling with Laravel is a 	breeze. In fact, Laravel applications have been easily scaled to 	handle hundreds of millions of requests per month.
+
+	Need extreme scaling? Platforms like Laravel Vapor allow you to run 	your Laravel application at nearly limitless scale on AWS's latest 	serverless technology.
+3)A Community Framework:-
+	-Laravel combines the best packages in the PHP ecosystem to offer 	the most robust and developer friendly framework available. In 	addition, thousands of talented developers from around the world 	have contributed to the framework.
+II) Your First Laravel Project :-
+ 	-We want it to be as easy as possible to get started with Laravel. There 	are a variety of options for developing and running a Laravel project on 	your own computer. While you may wish to explore these options at a later 	time, Laravel provides Sail, a built-in solution for running your Laravel 	project using Docker.
+	1)Docker Installation :-
+	Docker Desktop
+	The preferred choice for millions of developers that are building 	containerized apps.
+III)Dockr Docuemntation:-
+	Docker Desktop is an application for MacOS and Windows machines for the 		building and sharing of containerized applications. Access Docker Desktop 		and follow the guided onboarding to build your first containerized 		application in minutes.
+	- Docker Desktop for Windows is Docker designed to run on Windows 10. It 		is a native Windows application that provides an easy-to-use development 		environment for building, shipping, and running dockerized apps. Docker 		Desktop for Windows uses Windows-native Hyper-V virtualization and 		networking and is the fastest and most reliable way to develop Docker apps 	on Windows. Docker Desktop for Windows supports running both Linux and 		Windows Docker containers.(Dockerizing an application refers to packaging 		it in a Docker image to run in one or more containers. Dockerizing an 		application involves specifying everything needed to run the application 		in a Dockerfile and then using the file to build a specialized Docker 		image that can be shared to multiple machines.)
+     -I needed to build the image:-
+     exicute cmd:-   -docker run -d -p 80:80 docker/getting-started    
+                    -docker run -p 8080:80 xameeramir/cra-docker 
+			-docker image list
+-docker run -p 8080:80 img-repositary/cra-docker
+
+IV) Getting Started On Windows
+   exicute the cmd for create your project :-
+  - curl -s https://laravel.build/example-app | bash
+
+
+Installation Via Composer
+If your computer already has PHP and Composer installed, you may create a new Laravel project by using Composer directly. After the application has been created, you may start Laravel's local development server using the Artisan CLI's serve command:
+
+composer create-project laravel/laravel example-app
+ 
+cd example-app
+ 
+php artisan serve
+
+composer global require laravel/installer
+ 
+laravel new example-app
+ 
+cd example-app
+ 
+php artisan serve
+
+#Create repositry for git
+ laravel new example-app --git
+laravel new example-app --git --branch="main"
+laravel new example-app --github
+laravel new example-app --github="--public"
+laravel new example-app --github="--public" --organization="laravel" 
+
+#After Installation create via cmd Breeze
+composer require laravel/breeze --dev
+npm install && npm run dev
+php artisan breeze:install
+
+
+#Breeze & Inertia
+  #optimizaton 
+composer install --optimize-autoloader --no-dev
+
+#Optimizing Configuration Loading
+php artisan config:cache
+ #Optimizing Route Loading
+php artisan route:cache
+ #Optimizing View Loading
+
+#install tailwind
+ npm install -D tailwindcss
+
+
+
+
+
+
+
+   
+      
+

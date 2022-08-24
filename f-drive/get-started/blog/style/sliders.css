@@ -1,0 +1,334 @@
+.navbar {
+    border-radius: 0px;
+}
+
+.collaps-tag {
+    margin-top: 9px;
+}
+
+.navbar {
+    position: relative;
+    min-height: 38px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.navbar-inverse {
+    background-color: #23282d;
+    border-color: #080808;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+}
+
+.menu_Ancr {
+    color: #d0d0d0;
+    text-decoration: none;
+    font: icon;
+    font-size: 15px;
+    margin-left: 4px;
+}
+
+.ab-icon {
+    position: relative;
+    float: left;
+    font: normal 20px/1 dashicons;
+    padding: 4px 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: none !important;
+    margin-right: 6px;
+}
+
+.welcome_discription {
+    font-size: 14px;
+    color: #747070;
+    margin-left: 10px;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    background: #f1f1f1;
+}
+
+/* side nav css start */
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    margin-top: 37px;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    background-color: #23282d;
+    /* overflow-x: hidden; */
+    padding-top: 52px;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 13px;
+    display: block;
+    font-weight: 100;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+/* side nav css end */
+
+/* Dropdown Button */
+
+.dropbtn {
+    padding: 6px 19px 0 0;
+    font-size: 19px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    color: rgba(240, 245, 250, .6);
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #464b50;
+    min-width: 144px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    color: white;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: #e6e4e4;
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #464b50;
+    color: blue
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* profile drop down */
+
+.dropdown-profile {
+    display: none;
+    position: absolute;
+    background-color: #464b50;
+    width: 264px;
+    height: 111px;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 20%);
+    z-index: 999;
+    color: white;
+    right: 0;
+    left: auto;
+}
+
+.dropdown-profile a:hover {
+    /* background-color: #464b50; */
+    color: blue
+}
+
+.dropdown:hover .dropdown-profile {
+    display: block;
+}
+
+/* end */
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: #464b50;
+    color: #489bc1;
+}
+
+.plas {
+    font-size: 15px;
+}
+
+.mms {
+    font-size: 16px;
+}
+
+html {
+    background: #f1f1f1;
+}
+
+.dashborad {
+    margin-left: 180px;
+    float: left;
+    margin-top: -4px;
+    height: 100%;
+    width: 89%;
+}
+h2 {
+    font-size: 20px;
+}
+
+.opption_button_div {
+
+    margin-top: -16px;
+    width: 108px;
+}
+
+.btn_option {
+    height: 33px;
+    width: 132px;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    margin-left: 202px;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #72777c;
+    line-height: 1.7;
+}
+
+.opption_button2 {
+    margin-top: -15px;
+}
+
+.btn_option2 {
+    height: 33px;
+    width: 57px;
+    border: 1px solid #ccd0d4;
+    border-top: none;
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+    color: #72777c;
+    line-height: 1.7;
+    float: right;
+   
+    /* margin-left: 201px; */
+}
+
+.sidenav a:hover {
+    color: #0073aa;
+}
+
+
+
+
+.profile {
+    float: right;
+}
+
+.footer-p-tag {
+    float: left;
+    margin-left: 178px;
+    margin-top: 76px;
+    font-size: 13px;
+    font-style: italic;
+    position: inherit;
+    bottom: 0;
+    left: 0;
+    padding: 10px 20px;
+    color: #555d66;
+}
+
+.fas {
+    font-size: 16px;
+}
+
+.fas-dropbtn {
+    padding: 6px 19px 0 0;
+    font-size: 14px;
+}
+
+.sidebarhovers:hover {
+    background: black;
+    color: blue;
+}
+
+.sidebarhovers a {
+    color: #e0dcdc
+}
+
+.sidenav-main-div {
+    display: flex;
+    margin-bottom: 3px;
+    color: #d0d0d0;
+    max-height: 34px !important;
+}
+
+.sidenav-text-div {
+    padding: 0px 0px 0px 9px;
+    top: -3px;
+}
+
+.sidenav-icon-div {
+    padding: 11px 0px 0 18px;
+    color: #a0a0a0;
+}
+
+.sidebar-ul {
+    display: none;
+    margin-left: 64px;
+    background: #464646;
+    color: white;
+    width: 159px;
+    height: auto;
+    list-style: none;
+    padding: 7px 11px 11px 13px;
+}
+
+.sidebar-ul li {
+    margin-top: 10px;
+}
+
+.sidenav-main-div:hover .sidebar-ul {
+    display: block;
+}
+
+.collaps-tag {
+    margin-top: 10px;
+}
+
+.container-fluid {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.avatars {
+    height: 79px;
+    width: 85px;
+    margin-top: 13px;
+    margin-left: 1px;
+}
+.list-hover{
+    margin-top: 16px;
+}
+.hover-items{
+    margin-bottom: 11px;
+}
+.profile-hover-list
+{
+    color: #ccd0d4;
+}
+

@@ -1,0 +1,54 @@
+1. Creating a VPS
+2. Initial Login 
+ssh root@your_server_ip
+3.Creating a non-root user :-
+  adduser username
+  -give sudo previlage
+  usermod -aG sudo harry
+4. Firewall setup
+  ufw allow OpenSSH
+  ufw enable
+  sudo su
+  sudo -i
+ su non-root-user-name
+5.Installing Apache and allowing it through the firewall
+  sudo apt update
+  sudo apt install apache2
+  sudo ufw allow in "Apache Full"
+  sudo ufw status
+6. Installing MySQL on Ubuntu
+   sudo apt install mysql-server
+   sudo mysql 
+   (ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)) then use 
+   sudo ps ax | grep mysql
+   exit
+6(1) Create a new user for mysql
+  show users list in mysql database
+   SELECT User, Host, plugin FROM mysql.user;
+   CREATE USER 'riki'@'localhost' IDENTIFIED BY 'riki8352016505';
+    FLUSH PRIVILEGES;
+6(2)Set permissions for the new user
+    GRANT SELECT ON * . * TO 'riki'@'localhost';
+7. Installing PHP
+   sudo apt install php libapache2-mod-php php-mysql
+8. Installing phpMyAdmin and adding password authentication to MySQL on Ubuntu
+  sudo apt install phpmyadmin php-mbstring php-zip php-gd php-json php-curl
+9. Export Database in terminal
+   mysqldump -u root -p DBNAME > dump.sql
+10. Create a zip in linux
+    zip -r file-name.zip path/to/zip-directory
+
+Unzip file using terminal 
+unzip file.zip -d destination_folder
+or 
+unzip file.zip
+11.Import database using terminal or linux
+ source F:/22-02-22-Admin-Panels-for-Hospiltality-leisure -global-freight/leisurechain.sql;
+   
+
+12.create a virtualhost of nginx server for a domain
+cp /etc/nginx/sites-available/default  /etc/nginx/sites-available/hospitalitychain.com.conf
+vim /etc/nginx/sites-available/hospitalitychain.com.conf
+server_name  www.hospitalitychain.com   hospitalitychain.com
+
+ln -s /etc/nginx/sites-available/hospitalitychain_test /etc/nginx/sites-enabled/

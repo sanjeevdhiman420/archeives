@@ -1,0 +1,258 @@
+.lab {
+    margin-bottom: 0;
+}
+
+.label-profile {
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.help {
+    margin-left: 444px;
+}
+
+.table-td {
+    float: left;
+    margin-left: 71px;
+    margin-top: 14px;
+}
+
+.table-td-colour {
+    float: left;
+    margin-left: 71px;
+    margin-top: 14px;
+}
+
+.colour-div {
+    padding-bottom: 32px;
+}
+
+.colour-div:hover {
+    background: #ddd;
+}
+
+.colour-th {
+    padding: 0 0 201px;
+}
+
+.colour1 {
+    background: #1b1a1ae3;
+    width: 45px;
+    height: 20px;
+}
+
+.colour2 {
+    background: #3e3d3df0;
+    width: 45px;
+    height: 20px;
+}
+
+.colour3 {
+    background: #0073aa;
+    width: 45px;
+    height: 20px;
+}
+
+.colour4 {
+    background: #00a0d2;
+    width: 45px;
+    height: 20px;
+}
+
+.colour5 {
+    background-color: #e5e5e5;
+    width: 45px;
+    height: 20px;
+}
+
+.colour6 {
+    background-color: #999;
+    width: 45px;
+    height: 20px;
+}
+
+.colour7 {
+    background-color: #d64e07;
+    width: 45px;
+    height: 20px;
+}
+
+.colour8 {
+    background-color: #04a4cc;
+    width: 45px;
+    height: 20px;
+}
+
+.colour9 {
+    background-color: #1e1e1e;
+    width: 45px;
+    height: 20px;
+}
+
+.colour10 {
+    background-color: #3858e9;
+    width: 45px;
+    height: 20px;
+}
+
+.colour11 {
+    background-color: #33f078;
+    width: 45px;
+    height: 20px;
+}
+
+
+/* not use */
+
+.colour12 {
+    /* background: #3e3d3df0; */
+    width: 45px;
+    height: 20px;
+}
+
+
+/* end 12 */
+
+.colour13 {
+    background-color: #096484;
+    width: 45px;
+    height: 20px;
+}
+
+.colour14 {
+    background-color: #4796b3;
+    width: 45px;
+    height: 20px;
+}
+
+.colour15 {
+    background-color: #52accc;
+    width: 45px;
+    height: 20px;
+}
+
+.colour16 {
+    background-color: #74B6CE;
+    width: 45px;
+    height: 20px;
+}
+
+.colour17 {
+    background-color: #46403c;
+    width: 45px;
+    height: 20px;
+}
+
+.colour18 {
+    background-color: #59524c;
+    width: 45px;
+    height: 20px;
+}
+
+.colour19 {
+    background-color: #c7a589;
+    width: 45px;
+    height: 20px;
+}
+
+.colour20 {
+    background-color: #9ea476;
+    width: 45px;
+    height: 20px;
+}
+
+.colour21 {
+    background-color: #413256;
+    width: 45px;
+    height: 20px;
+}
+
+.colour22 {
+    background-color: #523f6d;
+    width: 45px;
+    height: 20px;
+}
+
+.colour23 {
+    background-color: #a3b745;
+    width: 45px;
+    height: 20px;
+}
+
+.colour24 {
+    background-color: #d46f15;
+    width: 45px;
+    height: 20px;
+}
+
+.colour25 {
+    background-color: #25282b;
+    width: 45px;
+    height: 20px;
+}
+
+.colour26 {
+    background-color: #363b3f;
+    width: 45px;
+    height: 20px;
+}
+
+.colour27 {
+    background-color: #69a8bb;
+    width: 45px;
+    height: 20px;
+}
+
+.colour28 {
+    background-color: #e14d43;
+    width: 45px;
+    height: 20px;
+}
+
+.colour29 {
+    background-color: #627c83;
+    width: 45px;
+    height: 20px;
+}
+
+.colour30 {
+    background-color: #738e96;
+    width: 45px;
+    height: 20px;
+}
+
+.colour31 {
+    background-color: #9ebaa0;
+    width: 45px;
+    height: 20px;
+}
+
+.colour32 {
+    background-color: #aa9d88;
+    width: 45px;
+    height: 20px;
+}
+
+.colour33 {
+    background-color: #b43c38;
+    width: 45px;
+    height: 20px;
+}
+
+.colour34 {
+    background-color: #cf4944;
+    width: 45px;
+    height: 20px;
+}
+
+.colour35 {
+    background-color: #dd823b;
+    width: 45px;
+    height: 20px;
+}
+
+.colour36 {
+    background-color: #ccaf0b;
+    width: 45px;
+    height: 20px;
+}
