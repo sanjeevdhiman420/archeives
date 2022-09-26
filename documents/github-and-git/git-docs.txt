@@ -20,4 +20,5 @@
 20)git remote -v
 21)git push origin origin_name
 22)git push -u origin origin_name
-
+23)git config --global --unset user.name
+24)git config --global --unset user.email
